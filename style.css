@@ -10,14 +10,14 @@ body {
     color: white;
 }
 
-.calculator {
+.main {
     display: flex;
     flex-direction: column;
     flex: 1;
     justify-content: center;
 }
 
-.content{
+.calculator{
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -29,6 +29,9 @@ body {
     flex-direction: column;
     align-items: flex-end;
     gap: 3px;
+    min-height: 35px;
+    font-size: large;
+    font-weight: bolder;
 }
 
 .buttons > * {
@@ -61,3 +64,4 @@ button {
 button:hover {
     background-color: bisque;
 }
+
